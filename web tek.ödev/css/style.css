@@ -1,0 +1,81 @@
+body,
+html {
+    height: 50%;
+    background: white;
+    color: #3f3f3f;
+    font: 14px / 28px;
+}
+
+h1,p,h2,h3{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+#mainSlider{
+    height: 300px;
+    background: url('../img/1.jpeg') center center no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 300%;
+}
+.caption p{
+    font-size: 125%;
+    color:darkmagenta;
+}
+.slider{
+    width: 100%;
+}
+.boşlukbaşlığı{
+    background: grey;
+    border-bottom: 6px solid purple;
+    height: 50px;
+    color:white;
+    display: inline-block;
+    line-height: 50px;
+    padding: 5px 30px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.lavandertop p{
+    font-size: 150%;
+    color: blueviolet
+}
+.javabutton h3{
+    font-size: 20px;
+    color: blueviolet;
+}
+.boşluktop, .alttop, .lavandertop, .lavandervideo{
+    text-align: center;
+}
+.sütun .a{
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+th{
+    font-size: 20px;
+    background-color: beige;
+}
+.lavandervideo .yazı{
+    font-size: 20px;
+}
+.container .tabloortala{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+footer{
+    background: #BA55D3;
+    text-align: center;
+}
+.footeritem{
+    padding: 10px;
+}
